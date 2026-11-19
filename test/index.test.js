@@ -1,7 +1,7 @@
 
 import { test } from "node:test";
 import assert from "node:assert";
-import worker from "../index.js";
+import worker from "../src/index.js";
 
 const env = { AMBIENTE: "pruebas" };
 
